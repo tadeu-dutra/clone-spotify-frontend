@@ -1,0 +1,118 @@
+/* HEADER */
+
+.main-container {
+    max-width: 80vw;
+    height: 100 vh;
+    margin-left: 320px;
+    margin-right: 20px;
+}
+
+.header__navigation {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 24px;
+    /* background-color: var(--sidebar-primary-color); */
+    /* background-color: #242424; */
+    /* padding: 12px; */
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 0.8rem;
+    height: 16px;
+    width: 16px;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 42px; /* header height */
+    padding-left: 18px;
+    margin-left: 8px;
+    margin-right: 200px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    height: 16px;
+    width: 16px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 12px;
+    color: var(--secondary-color);
+    text-overflow: ellipsis;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header__search:hover {
+    background-color: #2a2a2a;
+}
+
+.header__login .subscribe {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-left: 20px;
+    white-space: nowrap;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 42px; /* header height */
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.login:hover, .section-playlist__button:hover {
+    transform: scale(1.05); /* Scale the button on hover */
+}
+
+.subscribe:hover, .library__button:hover, .languages__button:hover, .fa-plus:hover {
+    transform: scale(1.05); /* Scale the button on hover */
+    color: #fff;
+}
+
+.home__button:hover, .search__button:hover {
+    color: #fff;
+    text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+:root {
+    --border-radius: 8px;
+    --padding-sidebar: 16px 0 0 16px;
+    --padding-sidebar-options: 0 20px 10px 8px;
+    --padding-sidebar-options-between: 10px 0;
+    --font-family: "DM Sans", sans-serif;
+    --primary-color: #000;
+    --secondary-color: #FFF;
+    --sidebar-primary-color: #121212;
+    --sidebar-secondary-color: #b3b3b3;
+}
